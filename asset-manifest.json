@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/code-counseling/filipa-15/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/code-counseling/filipa-15/static/js/main.c193775a.chunk.js",
+    "main.js.map": "/code-counseling/filipa-15/static/js/main.c193775a.chunk.js.map",
+    "runtime-main.js": "/code-counseling/filipa-15/static/js/runtime-main.4e30f9e6.js",
+    "runtime-main.js.map": "/code-counseling/filipa-15/static/js/runtime-main.4e30f9e6.js.map",
+    "static/js/2.e58ab615.chunk.js": "/code-counseling/filipa-15/static/js/2.e58ab615.chunk.js",
+    "static/js/2.e58ab615.chunk.js.map": "/code-counseling/filipa-15/static/js/2.e58ab615.chunk.js.map",
+    "static/js/3.9566521f.chunk.js": "/code-counseling/filipa-15/static/js/3.9566521f.chunk.js",
+    "static/js/3.9566521f.chunk.js.map": "/code-counseling/filipa-15/static/js/3.9566521f.chunk.js.map",
+    "index.html": "/code-counseling/filipa-15/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/code-counseling/filipa-15/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e58ab615.chunk.js.LICENSE.txt": "/code-counseling/filipa-15/static/js/2.e58ab615.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e30f9e6.js",
+    "static/js/2.e58ab615.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c193775a.chunk.js"
+  ]
+}
