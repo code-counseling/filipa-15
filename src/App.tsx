@@ -4,6 +4,7 @@ import { Hidden, makeStyles, TextField, Typography } from '@material-ui/core'
 import CakeIcon from '@material-ui/icons/Cake'
 import CheckIcon from '@material-ui/icons/Check'
 import ErrorIcon from '@material-ui/icons/ErrorOutline'
+import { Alert, AlertTitle } from '@material-ui/lab'
 
 const useStyles = makeStyles({
   form: {
@@ -23,16 +24,16 @@ export const App = () => {
     console.log('*')
     setCorrectCount(prev => prev + 1)
   }
-  const tf = (position: number, label: string, expectedAnswer: string) => (
+  let position = 0
+  const tf = (label: string, expectedAnswer: string) => (
     <SmartTextField
-      position={position}
+      position={position++}
       label={label}
       expectedAnswer={expectedAnswer}
       correctCount={correctCount}
       onCorrect={onCorrect}
     />
   )
-  let position = 0
   return (
     <div className="App">
       <Typography variant={'h3'}>Happy Birthday Filipa</Typography>
@@ -41,12 +42,22 @@ export const App = () => {
         <br />
         15 Fragen
         <br />
-        <CakeIcon />
+        <CakeIcon style={{ color: 'deeppink' }} />
       </Typography>
       <form className={classes.form} noValidate autoComplete="off">
-        {tf(position++, "Queen's Gambit", 'c4')}
-        {tf(position++, 'Augen zu – was schmeckst Du?', 'Zitrone')}
-        {tf(position++, 'Pommes oder Pizza?', 'Pommes')}
+        {tf("Queen's Gambit", 'c4')}
+        {tf('Augen zu – was schmeckst Du?', 'Zitrone')}
+        {tf('Pommes oder Pizza?', 'Pommes')}
+        {tf('Minecraft oder Candy Crush?', 'Minecraft')}
+        {tf("Los geht's! test.minecraft.ch", 'xxx')}
+        {correctCount >= position && (
+          <Alert severity="success" icon={false}>
+            <AlertTitle>Yay – Geschafft!</AlertTitle>47.47543353465387, 7.742019610119889
+            <br />
+            <br />
+            🍟😋🎂
+          </Alert>
+        )}
       </form>
     </div>
   )
