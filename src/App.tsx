@@ -44,12 +44,22 @@ export const App = () => {
         <br />
         <CakeIcon style={{ color: 'deeppink' }} />
       </Typography>
-      <form className={classes.form} noValidate autoComplete="off">
-        {tf("Queen's Gambit", 'c4')}
-        {tf('Augen zu – was schmeckst Du?', 'Zitrone')}
-        {tf('Pommes oder Pizza?', 'Pommes')}
+      <form className={classes.form} noValidate autoComplete="o'f">
+        {tf('Check, Check: Wie heisst Du?', 'Filipa')}
+        {tf('Dein Geburtsgewicht (in g)?', '2650')}
+        {tf('Wie viele ganze Tage bist Du alt?', '5478')}
+        {tf('Wie hiess Deine Hebamme?', 'Aline')}
+        {tf('Wie hiess Dein Plüsch-Pferd?', 'Fanny')}
+        {tf("So, chli Schach – Queen's Gambit!", 'c4')}
+        {tf('Augen zu – was schmeckst Du?', 'Cola')}
+        {tf('Schoggi oder Chips?', 'Chips')}
+        {tf('Wenn E=m*c*c, dann E/(c*c)=', 'm')}
         {tf('Minecraft oder Candy Crush?', 'Minecraft')}
-        {tf("Los geht's! test.minecraft.ch", 'xxx')}
+        {tf("Los geht's! 5.83.169.28:10260", '3')}
+        {tf('Räzel Nr 2', 'Nein')}
+        {tf('Räzel Nr 3', '1')}
+        {tf('Bus oder Velo?', 'Velo')}
+        {tf('Die Antwort auf alles?', '42')}
         {correctCount >= position && (
           <Alert severity="success" icon={false}>
             <AlertTitle>Yay – Geschafft!</AlertTitle>47.47543353465387, 7.742019610119889
