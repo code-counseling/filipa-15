@@ -50,7 +50,7 @@ export const App = () => {
         {tf('Wie viele ganze Tage bist Du alt?', '5478')}
         {tf('Wie hiess Deine Hebamme?', 'Aline')}
         {tf('Wie hiess Dein Plüsch-Pferd?', 'Fanny')}
-        {tf("So, chli Schach – Queen's Gambit!", 'c4')}
+        {tf("Queen's Gambit?", 'c4')}
         {tf('Augen zu – was schmeckst Du?', 'Cola')}
         {tf('Schoggi oder Chips?', 'Chips')}
         {tf('Wenn E=m*c*c, dann E/(c*c)=', 'm')}
